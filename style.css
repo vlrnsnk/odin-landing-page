@@ -11,7 +11,6 @@
 :root {
   --dark-background: #1f2937;
   --header-logo-text: #f9faf8;
-
   --button: #3882f6;
   --information: #1f2937;
   --quote: #e5e7eb;
@@ -78,9 +77,50 @@ main {
   color: var(--quote);
 }
 
+.hero {
+  min-height: 470px;
+  background-color: var(--dark-background);
+}
 
+.hero__wrapper {
+  display: flex;
+  height: 100%;
+  gap: 48px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
 
+.hero__title {
+  font-size: 48px;
+  line-height: 115%;
+  font-weight: 900;
+  color: var(--header-logo-text);
+  margin-bottom: 24px;
+}
 
+.hero__text {
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--quote);
+  margin-bottom: 24px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--button);
+  color: var(--header-logo-text);
+  border-radius: 12px;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+.btn:hover {
+  background-color: var(--header-logo-text);
+  color: var(--button);
+}
 
 
 
