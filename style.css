@@ -122,10 +122,45 @@ main {
   color: var(--button);
 }
 
+.cards {
+  min-height: 500px;
+}
 
+.cards__wrapper {
+  padding-top: 48px;
+}
 
+.cards__title {
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  color: var(--information);
+  margin-bottom: 48px;
+}
 
+.cards__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
 
+.cards__item {
+  width: 170px;
+}
+
+.cards__image {
+  border: 5px solid var(--button);
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.cards__text {
+  text-align: center;
+  padding: 0 10px;
+}
 
 
 .footer {
