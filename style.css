@@ -17,9 +17,20 @@
   --quote: #e5e7eb;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto', 'Arial', sans-serif;
   font-weight: 400;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 .container {
@@ -65,4 +76,28 @@ body {
 
 .header__link:active {
   color: var(--quote);
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  flex-shrink: 0;
+  display: flex;
+  margin-top: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background-color: var(--dark-background);
+}
+
+.footer__copyright {
+  color: var(--header-logo-text);
 }
