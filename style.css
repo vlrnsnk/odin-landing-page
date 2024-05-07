@@ -162,6 +162,31 @@ main {
   padding: 0 10px;
 }
 
+.quote {
+  min-height: 430px;
+  background-color: var(--quote);
+  padding-top: 140px;
+}
+
+.quote__text {
+  font-size: 36px;
+  line-height: 115%;
+  font-style: italic;
+  font-weight: 300;
+  width: 800px;
+  margin: 0 auto;
+  color: var(--information);
+  /* padding-left: 130px;
+  padding-right: 100px; */
+}
+
+.quote__cite {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  margin-left: 660px;
+  color: var(--information);
+}
 
 .footer {
   flex-shrink: 0;
