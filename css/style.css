@@ -187,6 +187,8 @@ main {
   font-weight: 800;
   margin-left: 360px;
   color: var(--information);
+  /* text-align: right; */
+  display: block;
 }
 
 .cta {
@@ -265,10 +267,12 @@ main {
     padding: 24px;
     text-align: center;
   }
+  .quote__cite {
+    margin: 0 0 0 auto;
+
+  }
 }
 
 @media (max-width: 372px) {
-  .quote__cite {
-    margin-left: 0;
-  }
+  
 }
