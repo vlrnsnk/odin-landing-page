@@ -177,15 +177,14 @@ main {
   width: 800px;
   margin: 0 auto;
   color: var(--information);
-  /* padding-left: 130px;
-  padding-right: 100px; */
+  margin-bottom: 24px;
 }
 
 .quote__cite {
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
-  margin-left: 660px;
+  margin-left: 360px;
   color: var(--information);
 }
 
@@ -208,6 +207,10 @@ main {
 
 .cta__text {
   color: var(--header-logo-text);
+}
+
+.cta__right {
+  flex-shrink: 0;
 }
 
 .cta__btn {
